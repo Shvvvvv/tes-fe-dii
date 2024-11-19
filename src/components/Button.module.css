@@ -1,0 +1,47 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.small {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.medium {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.large  {
+  font-size: 20px;
+  padding: 15px 20px
+}
+
+.blue {
+  background-color: rgb(59, 167, 255);
+}
+
+.red {
+  background-color: rgb(173, 35, 35);
+}
+
+.green {
+  background-color: rgb(9, 125, 9);
+}
+
+.button.disabled {
+  opacity: .7;
+  cursor: default;
+}
